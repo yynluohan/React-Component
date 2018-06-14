@@ -1,0 +1,28 @@
+.style{
+  width: auto;
+  height: auto;
+  border: 1px solid #DFDFDF;
+  box-shadow: 0 0 1px #DFDFDF;
+  margin: 15px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 4px;     /*圆角效果*/
+}
+
+.outStyle{
+  margin: 10px;
+}
+
+.titleStyle{
+  font: bold 18px arial;
+  padding-bottom: 5px;
+}
+
+.subTitleStyle{
+  font: bold 14px arial;
+  padding-bottom: 10px;
+}
+
+.childrenStyle{
+  margin: 5px;
+}

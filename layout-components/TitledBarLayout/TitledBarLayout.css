@@ -1,0 +1,26 @@
+.style{
+  border: 1px solid #D9D9D9;
+  box-shadow: 0 0 1px #D9D9D9;
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+
+.titleStyle{
+  margin: 12px 0;
+  font-size: 13px;
+  font-family: 'Raleway', 'Hiragino Sans GB', sans-serif;
+  color: #108EE9;
+  text-indent: 15px;
+  line-height: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.titleStyle > span{
+  color: #000;
+}
+
+.childrenStyle{
+  margin: 15px;
+  margin-bottom: 0px;
+}
