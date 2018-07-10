@@ -1,0 +1,114 @@
+.titleStyle{
+  width: 100%;
+  height: 2.8125em;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  justify-content: center;
+  border-bottom: 0.0625em solid #E4E4E4;
+  z-index: 99;
+}
+
+.titleIcon{
+  width: 0.5625em;
+  height: 0.9375em;
+  position: absolute;
+  padding: 0.93em;
+}
+
+.titleText {
+  height: 2.8125em;
+  line-height: 2.4em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.125em;
+  letter-spacing: 12px;
+}
+
+.titleText span {
+  position: absolute;
+  right: 0.5em;
+  font-size: 0.28rem;
+}
+
+.photoItem {
+  width:97%;
+  height:0;
+  padding-bottom: 100%;
+  overflow:hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  margin: 0.2em 0;
+}
+
+.photoItem div:first-child {
+  background-color: transparent;
+  padding-left:0;
+  position: fixed;
+  bottom: 0.2em;
+  right: -0.3em;
+}
+
+.photoItem div div span {
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 20%;
+}
+
+
+.allSelect {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.allSelectRadio {
+  padding: 1em 0.5em;
+  border-top: 1px solid #f2f2f2;
+}
+
+.allSelectRadio div:first-child{
+  top: 2.1em;
+  left: -0.8em;
+}
+.allSelectRadio div:first-child span{
+  top: -0.4em;
+}
+
+
+.deleteButton {
+  position: absolute;
+  right:1em;
+  display: inline-block;
+  font-size: 0.24rem;
+  border: 1px solid rgba(238, 48, 48, 1);
+  padding: 0.3em 1.5em;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(238, 48, 48, 1);
+  border-radius: 8px;
+}
+
+.imagePicker {
+  color: red;
+}
+
+/* .imagePicker div:first-child div:first-child div:first-child div:first-child div {
+  width:0;
+  height:0
+} */
+
+.imagePicker div:first-child div:first-child div:first-child div:first-child div:first-child div:first-child {
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 2.5em;
+  left: 1.1em;
+  overflow-x: hidden;
+}
